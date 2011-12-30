@@ -13,7 +13,7 @@ setup(
     author_email='kolanos@gmail.com',
     url='http://www.pypanel.org/',
     description='PyPanel is a web hosting control panel written entirely in Python.',	 
-    platforms=[],
+    platforms=['linux', 'linux2'],
     license='MIT',
     scripts=[]
 )
