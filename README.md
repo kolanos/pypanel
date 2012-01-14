@@ -14,6 +14,33 @@ A web hosting administration control panel inspired by [WebFaction's](http://www
 * Centralized multi-server remote administration capabilities via a REST interface.
 * User-level resource management including disk/bandwidth quotas, memory/cpu usage, etc.
 
+# Supported Services
+
+Below are a list of services I'm considering to support. This list is subject to change and will likely be paired down
+toa single service to start.
+
+## Web Servers
+
+* nginx
+
+## FTP Servers
+
+* proftpd
+* pure-ftpd
+* wzdftpd
+
+## Database Server
+
+* mysql
+* postgresql
+* redis
+
+## Mail Servers
+
+* postfix
+* courier
+* dovecot
+
 # Help?
 
 This project is in its infancy. If you'd like to contribute just fork this repository and start making contributions via
