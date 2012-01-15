@@ -6,14 +6,17 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name='pypanel',
-    version='0.1',
-    packages=['pypanel'],
     author='Michael Lavers',
     author_email='kolanos@gmail.com',
-    url='http://www.pypanel.org/',
-    description='PyPanel is a web hosting control panel written entirely in Python.',	 
-    platforms=['linux', 'linux2'],
+    description='PyPanel is a web hosting control panel.',	 
+    install_requires=['fabric', 'cuisine'],
     license='MIT',
-    scripts=[]
+    name='pypanel',
+    packages=['pypanel'],
+    platforms=['linux', 'linux2'],
+    scripts=['scripts/install.py'],
+    test_requires=['nose'],
+    test_suite='nose.collector',
+    url='http://www.pypanel.org/',
+    version='0.1',
 )
