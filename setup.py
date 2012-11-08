@@ -15,8 +15,8 @@ setup(
     packages=['pypanel'],
     platforms=['linux', 'linux2'],
     scripts=['scripts/install.py'],
-    test_requires=['nose'],
+    tests_require=['nose'],
     test_suite='nose.collector',
-    url='http://www.pypanel.org/',
-    version='0.1',
+    url='http://pypanel.org/',
+    version='0.0.1',
 )
