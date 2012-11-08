@@ -15,7 +15,6 @@
 
 # DNS
 -A INPUT -p tcp -m tcp --dport 53 -j ACCEPT
--A INPUT -p udp -m udp --dport 53 -j ACCEPT
 
 # HTTP
 -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT

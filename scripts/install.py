@@ -38,13 +38,17 @@ def install():
     env.user = prompt("Enter root username:", default="root")
     env.password = prompt_for_password("Enter root password: ", True)
 
-    with hide('running', 'stdout'):
-        server_version = run('cat /etc/issue')
-    if 'Ubuntu 10.04' in server_versio:
+    if os_version_check():
         print("\n%s Server is running Ubuntu 10.04" % green("[SUCCESS]", True))
     else:
         print("\n%s Server is not running Ubuntu 10.04" % red("[FAILURE]", True))
         exit()
+
+def os_version_check():
+    """Check for Ubuntu 10.04"""
+    with hide('running', 'stdout'):
+        version = run('cat /etc/issue')
+    return True if 'Ubuntu 10.04' in versio else False
 
 def ntpdate():
     """Create daily ntpdate cron job, run ntpdate for good measure."""
