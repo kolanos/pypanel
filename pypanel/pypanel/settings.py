@@ -1,8 +1,9 @@
-import os
+import os.path
 
 # Django settings for pypanel project.
 
-BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+BASE_PATH = os.path.dirname(__file__)
+PARENT_PATH = os.path.abspath(os.path.join(BASE_PATH, '..'))
 
 
 DEBUG = True
@@ -124,7 +125,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'contacts',
+    'pypanel.contacts',
 )
 
 # A sample logging configuration. The only tangible logging
