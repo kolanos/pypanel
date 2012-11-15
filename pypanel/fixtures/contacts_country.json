@@ -1,0 +1,16 @@
+[
+    {
+        "pk": 1, 
+        "model": "contacts.country", 
+        "fields": {
+            "name": "United States"
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "contacts.country", 
+        "fields": {
+            "name": "Canada"
+        }
+    }
+]

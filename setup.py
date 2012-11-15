@@ -9,7 +9,7 @@ setup(
     author='Michael Lavers',
     author_email='kolanos@gmail.com',
     description='PyPanel is a web hosting control panel.',	 
-    install_requires=['fabric', 'cuisine'],
+    install_requires=['cuisine', 'django', 'fabric', 'MySQL-pytho'],
     license='MIT',
     name='pypanel',
     packages=['pypanel'],
@@ -19,4 +19,6 @@ setup(
     test_suite='nose.collector',
     url='http://pypanel.org/',
     version='0.0.1',
+    include_package_data=True,
+    zip_safe=False,
 )
