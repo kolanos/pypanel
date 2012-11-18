@@ -1,0 +1,12 @@
+# Look up user passwords from a SQL database as
+# defined in /etc/dovecot/dovecot-sql.conf.ext
+passdb {
+    driver = sql
+    args = /etc/dovecot/dovecot-sql.conf.ext
+}
+# Look up user information from a SQL database as
+# defined in /etc/dovecot/dovecot-sql.conf.ext
+userdb {
+    driver = sql
+    args = /etc/dovecot/dovecot-sql.conf.ext
+}

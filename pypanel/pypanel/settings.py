@@ -2,7 +2,7 @@ import os.path
 
 # Django settings for pypanel project.
 
-BASE_PATH = os.path.dirname(__file__)
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 PARENT_PATH = os.path.abspath(os.path.join(BASE_PATH, '..'))
 
 
@@ -10,7 +10,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', mysql'your_email@example.com'),
+    ('Michael Lavers', 'kolanos@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -121,10 +121,8 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
     'django.contrib.admin',
-    # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'djcelery',
     'pypanel.contacts',
 )
 
@@ -158,5 +156,15 @@ LOGGING = {
 }
 
 FIXTURE_DIRS = (
-    os.path.join(BASE_PATH, 'fixtures'),
+    os.path.join(BASE_PATH, 'contacts', 'fixtures'),
 )
+
+# Celery
+import djcelery
+djcelery.setup_loader()
+BROKER_URL = 'amqp://guest:guest@localhost:5672/'
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+CELERYD_HIJACK_ROOT_LOGGER = False
+#CELERY_DISABLE_RATE_LIMITS = True
+CELERY_SEND_EVENTS = True
+CELERY_SEND_TASK_ERROR_EMAILS = True
