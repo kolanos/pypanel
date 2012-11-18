@@ -109,7 +109,7 @@ class Phone(models.Model):
 
 
 class BillingContact(BaseContact):
-    contact = models.OneToOneField('contacts.Contact')
+    contact = models.OneToOneField(Contact)
 
     class Meta(object):
         verbose_name = _('Billing Contact')

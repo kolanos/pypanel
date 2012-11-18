@@ -123,7 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'djcelery',
-    'pypanel.contacts',
+    'pypanel.contact',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -156,7 +156,7 @@ LOGGING = {
 }
 
 FIXTURE_DIRS = (
-    os.path.join(BASE_PATH, 'contacts', 'fixtures'),
+    os.path.join(BASE_PATH, 'contact', 'fixtures'),
 )
 
 # Celery
