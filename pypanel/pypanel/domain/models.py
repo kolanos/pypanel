@@ -2,16 +2,17 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 from pypanel.domain import settings
-from pypanel.mail import Mailbox, Alias
+from pypanel.machine.models import Machine
 
 
 class Domain(models.Model):
+    machine = models.ForeignKey(Machine)
     domain = models.CharField(db_index=True, max_length=255)
     aliases = models.IntegerField(default=0)
     mailboxes = models.IntegerField(default=0)
     maxquota = models.BigIntegerField(default=0)
     quota = models.BigIntegerField(default=0)
-    transport = models.CharField(choies=settings.TRANSPORT_OPTIONS,
+    transport = models.CharField(choices=settings.TRANSPORT_OPTIONS,
                                  default=settings.TRANSPORT_DEFAULT,
                                  max_length=7)
     backupmx = models.BooleanField(default=False)
@@ -25,6 +26,3 @@ class Domain(models.Model):
 
     def __unicode__(self):
         self.domain
-
-
-

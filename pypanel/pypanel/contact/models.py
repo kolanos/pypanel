@@ -4,12 +4,17 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class Country(models.Model):
-    name = models.CharField(_('Name'), max_length=255)
+    name = models.CharField(max_length=64)
+    printable_name = models.CharField(max_length=64)
+    iso = models.CharField(_('ISO'), max_length=2)
+    iso3 = models.CharField(_('ISO3'), max_length=3, null=True)
+    numcode = models.PositiveSmallIntegerField(null=True)
 
     def __unicode__(self):
-        return '%s' % self.name
+        return self.printable_name
 
     class Meta(object):
+        ordering = ('name',)
         verbose_name = _('Country')
         verbose_name_plural = _('Countries')
 
@@ -21,8 +26,7 @@ class BaseContact(models.Model):
     city = models.CharField(_('City'), max_length=20)
     state = models.CharField(_('State'), max_length=255)
     zip_code = models.CharField(_('Zip Code'), max_length=20)
-    country = models.ForeignKey(Country, verbose_name=_('Country'), blank=True,
-                                null=True)
+    country = models.ForeignKey(Country, verbose_name=_('Country'))
 
     class Meta(object):
         abstract = True

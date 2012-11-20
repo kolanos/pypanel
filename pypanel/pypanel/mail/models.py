@@ -1,9 +1,11 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
+from pypanel.domain.models import Domain
+
 
 class Mailbox(models.Model):
-    domain = models.ForeignKey('domain.Domain')
+    domain = models.ForeignKey(Domain)
     username = models.CharField(db_index=True, max_length=255)
     password = models.CharField(max_length=255)
     name = models.CharField(blank='', max_length=255)
@@ -12,7 +14,7 @@ class Mailbox(models.Model):
     local_part = models.CharField(max_length=255)
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
-    active = self.BooleanField(db_index=True, default=True)
+    active = models.BooleanField(db_index=True, default=True)
 
     class Meta(object):
         unique_together = ('domain', 'username')
@@ -25,7 +27,7 @@ class Mailbox(models.Model):
 
 class Alias(models.Model):
     alias = models.CharField(max_length=255)
-    domain = models.ForeignKey('domain.Domain', blank=True, null=True)
+    domain = models.ForeignKey(Domain, blank=True, null=True)
     mailbox = models.ForeignKey(Mailbox)
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
@@ -40,20 +42,17 @@ class Alias(models.Model):
         return self.address
 
 
-class AliasDomain(models.Model):
-    alias_domain = models.ForeignKey('domain.Domain')
-    target_domain = models.ForeignKey('domain.Domain')
+class DomainAlias(models.Model):
+    source = models.ForeignKey(Domain, related_name='sources')
+    destination = models.ForeignKey(Domain, related_name='destinations')
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
-    active = models.BooleanField(default=True, index=True)
+    active = models.BooleanField(default=True, db_index=True)
 
     class Meta(object):
-        unique_together = ('alias_domain', 'target_domain')
+        unique_together = ('source', 'destination')
         verbose_name = _('Alias Domain')
         verbose_name_plural = _('Alias Domains')
 
     def __unicode__(self):
         return self.alias_domain
-
-
-

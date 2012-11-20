@@ -45,7 +45,7 @@ user_link.allow_tags = True
 
 def full_address(self):
     address = [x for x in [self.address, self.address2, self.city, self.state,
-                           self.zip_code, self.country.name]
+                           self.zip_code, self.country.iso3]
                            if x]
     return ', '.join(address)
 full_address.short_description = _('Address')
@@ -69,5 +69,10 @@ class ContactAdmin(admin.ModelAdmin):
         js = ['js/collapsed_stacked_inlines.js']
 
 
+class CountryAdmin(admin.ModelAdmin):
+    list_display = ('printable_name',)
+    search_fields = ('printable_name',),
+
+
 admin.site.register(Contact, ContactAdmin)
-admin.site.register(Country)
+admin.site.register(Country, CountryAdmin)
