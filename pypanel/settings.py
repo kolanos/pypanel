@@ -125,13 +125,13 @@ INSTALLED_APPS = (
 
     'djcelery',
 
-    'pypanel.contact',
-    'pypanel.database',
-    'pypanel.domain',
-    'pypanel.ftp',
-    'pypanel.machine',
-    'pypanel.mail',
-    'pypanel.webapp',
+    'pypanel.contacts',
+    'pypanel.databases',
+    'pypanel.domains',
+    'pypanel.machines',
+    'pypanel.mailboxes',
+    'pypanel.plans',
+    'pypanel.webapps',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -164,7 +164,8 @@ LOGGING = {
 }
 
 FIXTURE_DIRS = (
-    os.path.join(BASE_PATH, 'contact', 'fixtures'),
+    os.path.join(BASE_PATH, 'contacts', 'fixtures'),
+    os.path.join(BASE_PATH, 'plans', 'fixtures'),
 )
 
 # Celery

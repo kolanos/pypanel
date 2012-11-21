@@ -1,11 +1,9 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from pypanel.domain.models import Domain
-
 
 class Mailbox(models.Model):
-    domain = models.ForeignKey(Domain)
+    domain = models.ForeignKey('domains.Domain')
     username = models.CharField(db_index=True, max_length=255)
     password = models.CharField(max_length=255)
     name = models.CharField(blank='', max_length=255)
@@ -27,7 +25,7 @@ class Mailbox(models.Model):
 
 class Alias(models.Model):
     alias = models.CharField(max_length=255)
-    domain = models.ForeignKey(Domain, blank=True, null=True)
+    domain = models.ForeignKey('domains.Domain', blank=True, null=True)
     mailbox = models.ForeignKey(Mailbox)
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
@@ -43,8 +41,9 @@ class Alias(models.Model):
 
 
 class DomainAlias(models.Model):
-    source = models.ForeignKey(Domain, related_name='sources')
-    destination = models.ForeignKey(Domain, related_name='destinations')
+    source = models.ForeignKey('domains.Domain', related_name='sources')
+    destination = models.ForeignKey('domains.Domain',
+                                    related_name='destinations')
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
     active = models.BooleanField(default=True, db_index=True)

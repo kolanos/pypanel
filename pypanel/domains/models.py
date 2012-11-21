@@ -1,12 +1,11 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from pypanel.domain import settings
-from pypanel.machine.models import Machine
+import settings
 
 
 class Domain(models.Model):
-    machine = models.ForeignKey(Machine)
+    machine = models.ForeignKey('machines.Machine')
     domain = models.CharField(db_index=True, max_length=255)
     aliases = models.IntegerField(default=0)
     mailboxes = models.IntegerField(default=0)

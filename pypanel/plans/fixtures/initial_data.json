@@ -1,0 +1,254 @@
+[
+    {
+        "pk": 1, 
+        "model": "plans.plan", 
+        "fields": {
+            "users": -1, 
+            "created": "2012-11-21T00:18:14Z", 
+            "webapps": -1, 
+            "description": "", 
+            "databases": -1, 
+            "mailboxes": -1, 
+            "modified": "2012-11-21T00:40:35Z", 
+            "active": true, 
+            "bandwidth": 644245094400, 
+            "memory": 268435456, 
+            "domains": -1, 
+            "disk": 107374182400, 
+            "name": "256MB"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "plans.plan", 
+        "fields": {
+            "users": -1, 
+            "created": "2012-11-21T00:43:58Z", 
+            "webapps": -1, 
+            "description": "", 
+            "databases": -1, 
+            "mailboxes": -1, 
+            "modified": "2012-11-21T00:49:04Z", 
+            "active": true, 
+            "bandwidth": 966367641600, 
+            "memory": 1073741824, 
+            "domains": -1, 
+            "disk": 214748364800, 
+            "name": "1GB"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "plans.plan", 
+        "fields": {
+            "users": -1, 
+            "created": "2012-11-21T02:21:13Z", 
+            "webapps": -1, 
+            "description": "", 
+            "databases": -1, 
+            "mailboxes": -1, 
+            "modified": "2012-11-21T02:32:42Z", 
+            "active": true, 
+            "bandwidth": 1288490188800, 
+            "memory": 2147483648, 
+            "domains": -1, 
+            "disk": 322122547200, 
+            "name": "2GB"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "plans.plan", 
+        "fields": {
+            "users": -1, 
+            "created": "2012-11-21T02:37:21Z", 
+            "webapps": -1, 
+            "description": "", 
+            "databases": -1, 
+            "mailboxes": -1, 
+            "modified": "2012-11-21T02:41:25Z", 
+            "active": true, 
+            "bandwidth": 1610612736000, 
+            "memory": 4294967296, 
+            "domains": -1, 
+            "disk": 429496729600, 
+            "name": "4GB"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "10.00", 
+            "setup": "0.00", 
+            "term": 1, 
+            "active": true, 
+            "plan": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "9.50", 
+            "setup": "0.00", 
+            "term": 3, 
+            "active": true, 
+            "plan": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "9.00", 
+            "setup": "0.00", 
+            "term": 6, 
+            "active": true, 
+            "plan": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "8.50", 
+            "setup": "0.00", 
+            "term": 12, 
+            "active": true, 
+            "plan": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "40.00", 
+            "setup": "0.00", 
+            "term": 1, 
+            "active": true, 
+            "plan": 2
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "38.00", 
+            "setup": "0.00", 
+            "term": 3, 
+            "active": true, 
+            "plan": 2
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "34.00", 
+            "setup": "0.00", 
+            "term": 6, 
+            "active": true, 
+            "plan": 2
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "32.00", 
+            "setup": "0.00", 
+            "term": 12, 
+            "active": true, 
+            "plan": 2
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "80.00", 
+            "setup": "0.00", 
+            "term": 1, 
+            "active": true, 
+            "plan": 3
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "76.00", 
+            "setup": "0.00", 
+            "term": 3, 
+            "active": true, 
+            "plan": 3
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "72.00", 
+            "setup": "0.00", 
+            "term": 6, 
+            "active": true, 
+            "plan": 3
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "68.00", 
+            "setup": "0.00", 
+            "term": 12, 
+            "active": true, 
+            "plan": 3
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "120.00", 
+            "setup": "0.00", 
+            "term": 1, 
+            "active": true, 
+            "plan": 4
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "114.00", 
+            "setup": "0.00", 
+            "term": 3, 
+            "active": true, 
+            "plan": 4
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "108.00", 
+            "setup": "0.00", 
+            "term": 6, 
+            "active": true, 
+            "plan": 4
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "plans.term", 
+        "fields": {
+            "price": "102.00", 
+            "setup": "0.00", 
+            "term": 12, 
+            "active": true, 
+            "plan": 4
+        }
+    }
+]

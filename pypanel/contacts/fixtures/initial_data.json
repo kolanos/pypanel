@@ -1,7 +1,7 @@
 [
     {
         "pk": 1, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 4, 
             "iso3": "AFG", 
@@ -12,7 +12,7 @@
     }, 
     {
         "pk": 2, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 8, 
             "iso3": "ALB", 
@@ -23,7 +23,7 @@
     }, 
     {
         "pk": 3, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 12, 
             "iso3": "DZA", 
@@ -34,7 +34,7 @@
     }, 
     {
         "pk": 4, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 16, 
             "iso3": "ASM", 
@@ -45,7 +45,7 @@
     }, 
     {
         "pk": 5, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 20, 
             "iso3": "AND", 
@@ -56,7 +56,7 @@
     }, 
     {
         "pk": 6, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 24, 
             "iso3": "AGO", 
@@ -67,7 +67,7 @@
     }, 
     {
         "pk": 7, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 660, 
             "iso3": "AIA", 
@@ -78,7 +78,7 @@
     }, 
     {
         "pk": 8, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -89,7 +89,7 @@
     }, 
     {
         "pk": 9, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 28, 
             "iso3": "ATG", 
@@ -100,7 +100,7 @@
     }, 
     {
         "pk": 10, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 32, 
             "iso3": "ARG", 
@@ -111,7 +111,7 @@
     }, 
     {
         "pk": 11, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 51, 
             "iso3": "ARM", 
@@ -122,7 +122,7 @@
     }, 
     {
         "pk": 12, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 533, 
             "iso3": "ABW", 
@@ -133,7 +133,7 @@
     }, 
     {
         "pk": 13, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 36, 
             "iso3": "AUS", 
@@ -144,7 +144,7 @@
     }, 
     {
         "pk": 14, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 40, 
             "iso3": "AUT", 
@@ -155,7 +155,7 @@
     }, 
     {
         "pk": 15, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 31, 
             "iso3": "AZE", 
@@ -166,7 +166,7 @@
     }, 
     {
         "pk": 16, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 44, 
             "iso3": "BHS", 
@@ -177,7 +177,7 @@
     }, 
     {
         "pk": 17, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 48, 
             "iso3": "BHR", 
@@ -188,7 +188,7 @@
     }, 
     {
         "pk": 18, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 50, 
             "iso3": "BGD", 
@@ -199,7 +199,7 @@
     }, 
     {
         "pk": 19, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 52, 
             "iso3": "BRB", 
@@ -210,7 +210,7 @@
     }, 
     {
         "pk": 20, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 112, 
             "iso3": "BLR", 
@@ -221,7 +221,7 @@
     }, 
     {
         "pk": 21, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 56, 
             "iso3": "BEL", 
@@ -232,7 +232,7 @@
     }, 
     {
         "pk": 22, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 84, 
             "iso3": "BLZ", 
@@ -243,7 +243,7 @@
     }, 
     {
         "pk": 23, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 204, 
             "iso3": "BEN", 
@@ -254,7 +254,7 @@
     }, 
     {
         "pk": 24, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 60, 
             "iso3": "BMU", 
@@ -265,7 +265,7 @@
     }, 
     {
         "pk": 25, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 64, 
             "iso3": "BTN", 
@@ -276,7 +276,7 @@
     }, 
     {
         "pk": 26, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 68, 
             "iso3": "BOL", 
@@ -287,7 +287,7 @@
     }, 
     {
         "pk": 27, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 70, 
             "iso3": "BIH", 
@@ -298,7 +298,7 @@
     }, 
     {
         "pk": 28, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 72, 
             "iso3": "BWA", 
@@ -309,7 +309,7 @@
     }, 
     {
         "pk": 29, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -320,7 +320,7 @@
     }, 
     {
         "pk": 30, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 76, 
             "iso3": "BRA", 
@@ -331,7 +331,7 @@
     }, 
     {
         "pk": 31, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -342,7 +342,7 @@
     }, 
     {
         "pk": 32, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 96, 
             "iso3": "BRN", 
@@ -353,7 +353,7 @@
     }, 
     {
         "pk": 33, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 100, 
             "iso3": "BGR", 
@@ -364,7 +364,7 @@
     }, 
     {
         "pk": 34, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 854, 
             "iso3": "BFA", 
@@ -375,7 +375,7 @@
     }, 
     {
         "pk": 35, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 108, 
             "iso3": "BDI", 
@@ -386,7 +386,7 @@
     }, 
     {
         "pk": 36, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 116, 
             "iso3": "KHM", 
@@ -397,7 +397,7 @@
     }, 
     {
         "pk": 37, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 120, 
             "iso3": "CMR", 
@@ -408,7 +408,7 @@
     }, 
     {
         "pk": 38, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 124, 
             "iso3": "CAN", 
@@ -419,7 +419,7 @@
     }, 
     {
         "pk": 39, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 132, 
             "iso3": "CPV", 
@@ -430,7 +430,7 @@
     }, 
     {
         "pk": 40, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 136, 
             "iso3": "CYM", 
@@ -441,7 +441,7 @@
     }, 
     {
         "pk": 41, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 140, 
             "iso3": "CAF", 
@@ -452,7 +452,7 @@
     }, 
     {
         "pk": 42, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 148, 
             "iso3": "TCD", 
@@ -463,7 +463,7 @@
     }, 
     {
         "pk": 43, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 152, 
             "iso3": "CHL", 
@@ -474,7 +474,7 @@
     }, 
     {
         "pk": 44, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 156, 
             "iso3": "CHN", 
@@ -485,7 +485,7 @@
     }, 
     {
         "pk": 45, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -496,7 +496,7 @@
     }, 
     {
         "pk": 46, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -507,7 +507,7 @@
     }, 
     {
         "pk": 47, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 170, 
             "iso3": "COL", 
@@ -518,7 +518,7 @@
     }, 
     {
         "pk": 48, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 174, 
             "iso3": "COM", 
@@ -529,7 +529,7 @@
     }, 
     {
         "pk": 49, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 178, 
             "iso3": "COG", 
@@ -540,7 +540,7 @@
     }, 
     {
         "pk": 50, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 180, 
             "iso3": "COD", 
@@ -551,7 +551,7 @@
     }, 
     {
         "pk": 51, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 184, 
             "iso3": "COK", 
@@ -562,7 +562,7 @@
     }, 
     {
         "pk": 52, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 188, 
             "iso3": "CRI", 
@@ -573,7 +573,7 @@
     }, 
     {
         "pk": 53, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 384, 
             "iso3": "CIV", 
@@ -584,7 +584,7 @@
     }, 
     {
         "pk": 54, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 191, 
             "iso3": "HRV", 
@@ -595,7 +595,7 @@
     }, 
     {
         "pk": 55, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 192, 
             "iso3": "CUB", 
@@ -606,7 +606,7 @@
     }, 
     {
         "pk": 56, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 196, 
             "iso3": "CYP", 
@@ -617,7 +617,7 @@
     }, 
     {
         "pk": 57, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 203, 
             "iso3": "CZE", 
@@ -628,7 +628,7 @@
     }, 
     {
         "pk": 58, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 208, 
             "iso3": "DNK", 
@@ -639,7 +639,7 @@
     }, 
     {
         "pk": 59, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 262, 
             "iso3": "DJI", 
@@ -650,7 +650,7 @@
     }, 
     {
         "pk": 60, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 212, 
             "iso3": "DMA", 
@@ -661,7 +661,7 @@
     }, 
     {
         "pk": 61, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 214, 
             "iso3": "DOM", 
@@ -672,7 +672,7 @@
     }, 
     {
         "pk": 62, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 218, 
             "iso3": "ECU", 
@@ -683,7 +683,7 @@
     }, 
     {
         "pk": 63, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 818, 
             "iso3": "EGY", 
@@ -694,7 +694,7 @@
     }, 
     {
         "pk": 64, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 222, 
             "iso3": "SLV", 
@@ -705,7 +705,7 @@
     }, 
     {
         "pk": 65, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 226, 
             "iso3": "GNQ", 
@@ -716,7 +716,7 @@
     }, 
     {
         "pk": 66, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 232, 
             "iso3": "ERI", 
@@ -727,7 +727,7 @@
     }, 
     {
         "pk": 67, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 233, 
             "iso3": "EST", 
@@ -738,7 +738,7 @@
     }, 
     {
         "pk": 68, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 231, 
             "iso3": "ETH", 
@@ -749,7 +749,7 @@
     }, 
     {
         "pk": 69, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 238, 
             "iso3": "FLK", 
@@ -760,7 +760,7 @@
     }, 
     {
         "pk": 70, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 234, 
             "iso3": "FRO", 
@@ -771,7 +771,7 @@
     }, 
     {
         "pk": 71, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 242, 
             "iso3": "FJI", 
@@ -782,7 +782,7 @@
     }, 
     {
         "pk": 72, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 246, 
             "iso3": "FIN", 
@@ -793,7 +793,7 @@
     }, 
     {
         "pk": 73, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 250, 
             "iso3": "FRA", 
@@ -804,7 +804,7 @@
     }, 
     {
         "pk": 74, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 254, 
             "iso3": "GUF", 
@@ -815,7 +815,7 @@
     }, 
     {
         "pk": 75, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 258, 
             "iso3": "PYF", 
@@ -826,7 +826,7 @@
     }, 
     {
         "pk": 76, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -837,7 +837,7 @@
     }, 
     {
         "pk": 77, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 266, 
             "iso3": "GAB", 
@@ -848,7 +848,7 @@
     }, 
     {
         "pk": 78, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 270, 
             "iso3": "GMB", 
@@ -859,7 +859,7 @@
     }, 
     {
         "pk": 79, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 268, 
             "iso3": "GEO", 
@@ -870,7 +870,7 @@
     }, 
     {
         "pk": 80, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 276, 
             "iso3": "DEU", 
@@ -881,7 +881,7 @@
     }, 
     {
         "pk": 81, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 288, 
             "iso3": "GHA", 
@@ -892,7 +892,7 @@
     }, 
     {
         "pk": 82, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 292, 
             "iso3": "GIB", 
@@ -903,7 +903,7 @@
     }, 
     {
         "pk": 83, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 300, 
             "iso3": "GRC", 
@@ -914,7 +914,7 @@
     }, 
     {
         "pk": 84, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 304, 
             "iso3": "GRL", 
@@ -925,7 +925,7 @@
     }, 
     {
         "pk": 85, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 308, 
             "iso3": "GRD", 
@@ -936,7 +936,7 @@
     }, 
     {
         "pk": 86, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 312, 
             "iso3": "GLP", 
@@ -947,7 +947,7 @@
     }, 
     {
         "pk": 87, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 316, 
             "iso3": "GUM", 
@@ -958,7 +958,7 @@
     }, 
     {
         "pk": 88, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 320, 
             "iso3": "GTM", 
@@ -969,7 +969,7 @@
     }, 
     {
         "pk": 89, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 324, 
             "iso3": "GIN", 
@@ -980,7 +980,7 @@
     }, 
     {
         "pk": 90, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 624, 
             "iso3": "GNB", 
@@ -991,7 +991,7 @@
     }, 
     {
         "pk": 91, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 328, 
             "iso3": "GUY", 
@@ -1002,7 +1002,7 @@
     }, 
     {
         "pk": 92, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 332, 
             "iso3": "HTI", 
@@ -1013,7 +1013,7 @@
     }, 
     {
         "pk": 93, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -1024,7 +1024,7 @@
     }, 
     {
         "pk": 94, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 336, 
             "iso3": "VAT", 
@@ -1035,7 +1035,7 @@
     }, 
     {
         "pk": 95, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 340, 
             "iso3": "HND", 
@@ -1046,7 +1046,7 @@
     }, 
     {
         "pk": 96, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 344, 
             "iso3": "HKG", 
@@ -1057,7 +1057,7 @@
     }, 
     {
         "pk": 97, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 348, 
             "iso3": "HUN", 
@@ -1068,7 +1068,7 @@
     }, 
     {
         "pk": 98, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 352, 
             "iso3": "ISL", 
@@ -1079,7 +1079,7 @@
     }, 
     {
         "pk": 99, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 356, 
             "iso3": "IND", 
@@ -1090,7 +1090,7 @@
     }, 
     {
         "pk": 100, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 360, 
             "iso3": "IDN", 
@@ -1101,7 +1101,7 @@
     }, 
     {
         "pk": 101, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 364, 
             "iso3": "IRN", 
@@ -1112,7 +1112,7 @@
     }, 
     {
         "pk": 102, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 368, 
             "iso3": "IRQ", 
@@ -1123,7 +1123,7 @@
     }, 
     {
         "pk": 103, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 372, 
             "iso3": "IRL", 
@@ -1134,7 +1134,7 @@
     }, 
     {
         "pk": 104, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 376, 
             "iso3": "ISR", 
@@ -1145,7 +1145,7 @@
     }, 
     {
         "pk": 105, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 380, 
             "iso3": "ITA", 
@@ -1156,7 +1156,7 @@
     }, 
     {
         "pk": 106, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 388, 
             "iso3": "JAM", 
@@ -1167,7 +1167,7 @@
     }, 
     {
         "pk": 107, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 392, 
             "iso3": "JPN", 
@@ -1178,7 +1178,7 @@
     }, 
     {
         "pk": 108, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 400, 
             "iso3": "JOR", 
@@ -1189,7 +1189,7 @@
     }, 
     {
         "pk": 109, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 398, 
             "iso3": "KAZ", 
@@ -1200,7 +1200,7 @@
     }, 
     {
         "pk": 110, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 404, 
             "iso3": "KEN", 
@@ -1211,7 +1211,7 @@
     }, 
     {
         "pk": 111, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 296, 
             "iso3": "KIR", 
@@ -1222,7 +1222,7 @@
     }, 
     {
         "pk": 112, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 408, 
             "iso3": "PRK", 
@@ -1233,7 +1233,7 @@
     }, 
     {
         "pk": 113, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 410, 
             "iso3": "KOR", 
@@ -1244,7 +1244,7 @@
     }, 
     {
         "pk": 114, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 414, 
             "iso3": "KWT", 
@@ -1255,7 +1255,7 @@
     }, 
     {
         "pk": 115, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 417, 
             "iso3": "KGZ", 
@@ -1266,7 +1266,7 @@
     }, 
     {
         "pk": 116, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 418, 
             "iso3": "LAO", 
@@ -1277,7 +1277,7 @@
     }, 
     {
         "pk": 117, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 428, 
             "iso3": "LVA", 
@@ -1288,7 +1288,7 @@
     }, 
     {
         "pk": 118, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 422, 
             "iso3": "LBN", 
@@ -1299,7 +1299,7 @@
     }, 
     {
         "pk": 119, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 426, 
             "iso3": "LSO", 
@@ -1310,7 +1310,7 @@
     }, 
     {
         "pk": 120, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 430, 
             "iso3": "LBR", 
@@ -1321,7 +1321,7 @@
     }, 
     {
         "pk": 121, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 434, 
             "iso3": "LBY", 
@@ -1332,7 +1332,7 @@
     }, 
     {
         "pk": 122, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 438, 
             "iso3": "LIE", 
@@ -1343,7 +1343,7 @@
     }, 
     {
         "pk": 123, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 440, 
             "iso3": "LTU", 
@@ -1354,7 +1354,7 @@
     }, 
     {
         "pk": 124, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 442, 
             "iso3": "LUX", 
@@ -1365,7 +1365,7 @@
     }, 
     {
         "pk": 125, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 446, 
             "iso3": "MAC", 
@@ -1376,7 +1376,7 @@
     }, 
     {
         "pk": 126, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 807, 
             "iso3": "MKD", 
@@ -1387,7 +1387,7 @@
     }, 
     {
         "pk": 127, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 450, 
             "iso3": "MDG", 
@@ -1398,7 +1398,7 @@
     }, 
     {
         "pk": 128, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 454, 
             "iso3": "MWI", 
@@ -1409,7 +1409,7 @@
     }, 
     {
         "pk": 129, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 458, 
             "iso3": "MYS", 
@@ -1420,7 +1420,7 @@
     }, 
     {
         "pk": 130, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 462, 
             "iso3": "MDV", 
@@ -1431,7 +1431,7 @@
     }, 
     {
         "pk": 131, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 466, 
             "iso3": "MLI", 
@@ -1442,7 +1442,7 @@
     }, 
     {
         "pk": 132, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 470, 
             "iso3": "MLT", 
@@ -1453,7 +1453,7 @@
     }, 
     {
         "pk": 133, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 584, 
             "iso3": "MHL", 
@@ -1464,7 +1464,7 @@
     }, 
     {
         "pk": 134, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 474, 
             "iso3": "MTQ", 
@@ -1475,7 +1475,7 @@
     }, 
     {
         "pk": 135, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 478, 
             "iso3": "MRT", 
@@ -1486,7 +1486,7 @@
     }, 
     {
         "pk": 136, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 480, 
             "iso3": "MUS", 
@@ -1497,7 +1497,7 @@
     }, 
     {
         "pk": 137, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -1508,7 +1508,7 @@
     }, 
     {
         "pk": 138, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 484, 
             "iso3": "MEX", 
@@ -1519,7 +1519,7 @@
     }, 
     {
         "pk": 139, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 583, 
             "iso3": "FSM", 
@@ -1530,7 +1530,7 @@
     }, 
     {
         "pk": 140, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 498, 
             "iso3": "MDA", 
@@ -1541,7 +1541,7 @@
     }, 
     {
         "pk": 141, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 492, 
             "iso3": "MCO", 
@@ -1552,7 +1552,7 @@
     }, 
     {
         "pk": 142, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 496, 
             "iso3": "MNG", 
@@ -1563,7 +1563,7 @@
     }, 
     {
         "pk": 143, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 500, 
             "iso3": "MSR", 
@@ -1574,7 +1574,7 @@
     }, 
     {
         "pk": 144, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 504, 
             "iso3": "MAR", 
@@ -1585,7 +1585,7 @@
     }, 
     {
         "pk": 145, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 508, 
             "iso3": "MOZ", 
@@ -1596,7 +1596,7 @@
     }, 
     {
         "pk": 146, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 104, 
             "iso3": "MMR", 
@@ -1607,7 +1607,7 @@
     }, 
     {
         "pk": 147, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 516, 
             "iso3": "NAM", 
@@ -1618,7 +1618,7 @@
     }, 
     {
         "pk": 148, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 520, 
             "iso3": "NRU", 
@@ -1629,7 +1629,7 @@
     }, 
     {
         "pk": 149, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 524, 
             "iso3": "NPL", 
@@ -1640,7 +1640,7 @@
     }, 
     {
         "pk": 150, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 528, 
             "iso3": "NLD", 
@@ -1651,7 +1651,7 @@
     }, 
     {
         "pk": 151, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 530, 
             "iso3": "ANT", 
@@ -1662,7 +1662,7 @@
     }, 
     {
         "pk": 152, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 540, 
             "iso3": "NCL", 
@@ -1673,7 +1673,7 @@
     }, 
     {
         "pk": 153, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 554, 
             "iso3": "NZL", 
@@ -1684,7 +1684,7 @@
     }, 
     {
         "pk": 154, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 558, 
             "iso3": "NIC", 
@@ -1695,7 +1695,7 @@
     }, 
     {
         "pk": 155, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 562, 
             "iso3": "NER", 
@@ -1706,7 +1706,7 @@
     }, 
     {
         "pk": 156, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 566, 
             "iso3": "NGA", 
@@ -1717,7 +1717,7 @@
     }, 
     {
         "pk": 157, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 570, 
             "iso3": "NIU", 
@@ -1728,7 +1728,7 @@
     }, 
     {
         "pk": 158, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 574, 
             "iso3": "NFK", 
@@ -1739,7 +1739,7 @@
     }, 
     {
         "pk": 159, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 580, 
             "iso3": "MNP", 
@@ -1750,7 +1750,7 @@
     }, 
     {
         "pk": 160, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 578, 
             "iso3": "NOR", 
@@ -1761,7 +1761,7 @@
     }, 
     {
         "pk": 161, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 512, 
             "iso3": "OMN", 
@@ -1772,7 +1772,7 @@
     }, 
     {
         "pk": 162, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 586, 
             "iso3": "PAK", 
@@ -1783,7 +1783,7 @@
     }, 
     {
         "pk": 163, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 585, 
             "iso3": "PLW", 
@@ -1794,7 +1794,7 @@
     }, 
     {
         "pk": 164, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -1805,7 +1805,7 @@
     }, 
     {
         "pk": 165, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 591, 
             "iso3": "PAN", 
@@ -1816,7 +1816,7 @@
     }, 
     {
         "pk": 166, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 598, 
             "iso3": "PNG", 
@@ -1827,7 +1827,7 @@
     }, 
     {
         "pk": 167, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 600, 
             "iso3": "PRY", 
@@ -1838,7 +1838,7 @@
     }, 
     {
         "pk": 168, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 604, 
             "iso3": "PER", 
@@ -1849,7 +1849,7 @@
     }, 
     {
         "pk": 169, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 608, 
             "iso3": "PHL", 
@@ -1860,7 +1860,7 @@
     }, 
     {
         "pk": 170, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 612, 
             "iso3": "PCN", 
@@ -1871,7 +1871,7 @@
     }, 
     {
         "pk": 171, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 616, 
             "iso3": "POL", 
@@ -1882,7 +1882,7 @@
     }, 
     {
         "pk": 172, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 620, 
             "iso3": "PRT", 
@@ -1893,7 +1893,7 @@
     }, 
     {
         "pk": 173, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 630, 
             "iso3": "PRI", 
@@ -1904,7 +1904,7 @@
     }, 
     {
         "pk": 174, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 634, 
             "iso3": "QAT", 
@@ -1915,7 +1915,7 @@
     }, 
     {
         "pk": 175, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 638, 
             "iso3": "REU", 
@@ -1926,7 +1926,7 @@
     }, 
     {
         "pk": 176, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 642, 
             "iso3": "ROM", 
@@ -1937,7 +1937,7 @@
     }, 
     {
         "pk": 177, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 643, 
             "iso3": "RUS", 
@@ -1948,7 +1948,7 @@
     }, 
     {
         "pk": 178, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 646, 
             "iso3": "RWA", 
@@ -1959,7 +1959,7 @@
     }, 
     {
         "pk": 179, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 654, 
             "iso3": "SHN", 
@@ -1970,7 +1970,7 @@
     }, 
     {
         "pk": 180, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 659, 
             "iso3": "KNA", 
@@ -1981,7 +1981,7 @@
     }, 
     {
         "pk": 181, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 662, 
             "iso3": "LCA", 
@@ -1992,7 +1992,7 @@
     }, 
     {
         "pk": 182, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 666, 
             "iso3": "SPM", 
@@ -2003,7 +2003,7 @@
     }, 
     {
         "pk": 183, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 670, 
             "iso3": "VCT", 
@@ -2014,7 +2014,7 @@
     }, 
     {
         "pk": 184, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 882, 
             "iso3": "WSM", 
@@ -2025,7 +2025,7 @@
     }, 
     {
         "pk": 185, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 674, 
             "iso3": "SMR", 
@@ -2036,7 +2036,7 @@
     }, 
     {
         "pk": 186, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 678, 
             "iso3": "STP", 
@@ -2047,7 +2047,7 @@
     }, 
     {
         "pk": 187, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 682, 
             "iso3": "SAU", 
@@ -2058,7 +2058,7 @@
     }, 
     {
         "pk": 188, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 686, 
             "iso3": "SEN", 
@@ -2069,7 +2069,7 @@
     }, 
     {
         "pk": 189, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -2080,7 +2080,7 @@
     }, 
     {
         "pk": 190, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 690, 
             "iso3": "SYC", 
@@ -2091,7 +2091,7 @@
     }, 
     {
         "pk": 191, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 694, 
             "iso3": "SLE", 
@@ -2102,7 +2102,7 @@
     }, 
     {
         "pk": 192, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 702, 
             "iso3": "SGP", 
@@ -2113,7 +2113,7 @@
     }, 
     {
         "pk": 193, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 703, 
             "iso3": "SVK", 
@@ -2124,7 +2124,7 @@
     }, 
     {
         "pk": 194, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 705, 
             "iso3": "SVN", 
@@ -2135,7 +2135,7 @@
     }, 
     {
         "pk": 195, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 90, 
             "iso3": "SLB", 
@@ -2146,7 +2146,7 @@
     }, 
     {
         "pk": 196, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 706, 
             "iso3": "SOM", 
@@ -2157,7 +2157,7 @@
     }, 
     {
         "pk": 197, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 710, 
             "iso3": "ZAF", 
@@ -2168,7 +2168,7 @@
     }, 
     {
         "pk": 198, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -2179,7 +2179,7 @@
     }, 
     {
         "pk": 199, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 724, 
             "iso3": "ESP", 
@@ -2190,7 +2190,7 @@
     }, 
     {
         "pk": 200, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 144, 
             "iso3": "LKA", 
@@ -2201,7 +2201,7 @@
     }, 
     {
         "pk": 201, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 736, 
             "iso3": "SDN", 
@@ -2212,7 +2212,7 @@
     }, 
     {
         "pk": 202, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 740, 
             "iso3": "SUR", 
@@ -2223,7 +2223,7 @@
     }, 
     {
         "pk": 203, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 744, 
             "iso3": "SJM", 
@@ -2234,7 +2234,7 @@
     }, 
     {
         "pk": 204, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 748, 
             "iso3": "SWZ", 
@@ -2245,7 +2245,7 @@
     }, 
     {
         "pk": 205, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 752, 
             "iso3": "SWE", 
@@ -2256,7 +2256,7 @@
     }, 
     {
         "pk": 206, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 756, 
             "iso3": "CHE", 
@@ -2267,7 +2267,7 @@
     }, 
     {
         "pk": 207, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 760, 
             "iso3": "SYR", 
@@ -2278,7 +2278,7 @@
     }, 
     {
         "pk": 208, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 158, 
             "iso3": "TWN", 
@@ -2289,7 +2289,7 @@
     }, 
     {
         "pk": 209, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 762, 
             "iso3": "TJK", 
@@ -2300,7 +2300,7 @@
     }, 
     {
         "pk": 210, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 834, 
             "iso3": "TZA", 
@@ -2311,7 +2311,7 @@
     }, 
     {
         "pk": 211, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 764, 
             "iso3": "THA", 
@@ -2322,7 +2322,7 @@
     }, 
     {
         "pk": 212, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -2333,7 +2333,7 @@
     }, 
     {
         "pk": 213, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 768, 
             "iso3": "TGO", 
@@ -2344,7 +2344,7 @@
     }, 
     {
         "pk": 214, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 772, 
             "iso3": "TKL", 
@@ -2355,7 +2355,7 @@
     }, 
     {
         "pk": 215, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 776, 
             "iso3": "TON", 
@@ -2366,7 +2366,7 @@
     }, 
     {
         "pk": 216, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 780, 
             "iso3": "TTO", 
@@ -2377,7 +2377,7 @@
     }, 
     {
         "pk": 217, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 788, 
             "iso3": "TUN", 
@@ -2388,7 +2388,7 @@
     }, 
     {
         "pk": 218, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 792, 
             "iso3": "TUR", 
@@ -2399,7 +2399,7 @@
     }, 
     {
         "pk": 219, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 795, 
             "iso3": "TKM", 
@@ -2410,7 +2410,7 @@
     }, 
     {
         "pk": 220, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 796, 
             "iso3": "TCA", 
@@ -2421,7 +2421,7 @@
     }, 
     {
         "pk": 221, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 798, 
             "iso3": "TUV", 
@@ -2432,7 +2432,7 @@
     }, 
     {
         "pk": 222, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 800, 
             "iso3": "UGA", 
@@ -2443,7 +2443,7 @@
     }, 
     {
         "pk": 223, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 804, 
             "iso3": "UKR", 
@@ -2454,7 +2454,7 @@
     }, 
     {
         "pk": 224, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 784, 
             "iso3": "ARE", 
@@ -2465,7 +2465,7 @@
     }, 
     {
         "pk": 225, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 826, 
             "iso3": "GBR", 
@@ -2476,7 +2476,7 @@
     }, 
     {
         "pk": 226, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 840, 
             "iso3": "USA", 
@@ -2487,7 +2487,7 @@
     }, 
     {
         "pk": 227, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": null, 
             "iso3": null, 
@@ -2498,7 +2498,7 @@
     }, 
     {
         "pk": 228, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 858, 
             "iso3": "URY", 
@@ -2509,7 +2509,7 @@
     }, 
     {
         "pk": 229, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 860, 
             "iso3": "UZB", 
@@ -2520,7 +2520,7 @@
     }, 
     {
         "pk": 230, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 548, 
             "iso3": "VUT", 
@@ -2531,7 +2531,7 @@
     }, 
     {
         "pk": 231, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 862, 
             "iso3": "VEN", 
@@ -2542,7 +2542,7 @@
     }, 
     {
         "pk": 232, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 704, 
             "iso3": "VNM", 
@@ -2553,7 +2553,7 @@
     }, 
     {
         "pk": 233, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 92, 
             "iso3": "VGB", 
@@ -2564,7 +2564,7 @@
     }, 
     {
         "pk": 234, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 850, 
             "iso3": "VIR", 
@@ -2575,7 +2575,7 @@
     }, 
     {
         "pk": 235, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 876, 
             "iso3": "WLF", 
@@ -2586,7 +2586,7 @@
     }, 
     {
         "pk": 236, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 732, 
             "iso3": "ESH", 
@@ -2597,7 +2597,7 @@
     }, 
     {
         "pk": 237, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 887, 
             "iso3": "YEM", 
@@ -2608,7 +2608,7 @@
     }, 
     {
         "pk": 238, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 894, 
             "iso3": "ZMB", 
@@ -2619,7 +2619,7 @@
     }, 
     {
         "pk": 239, 
-        "model": "contact.country", 
+        "model": "contacts.country", 
         "fields": {
             "numcode": 716, 
             "iso3": "ZWE", 
