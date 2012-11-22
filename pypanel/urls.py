@@ -1,17 +1,20 @@
 from django.conf.urls import patterns, include, url
+from session_csrf import anonymous_csrf
 
-# Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
 
+
+def bad(request):
+    """ Simulates a server error. """
+    1 / 0
+
+
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'pypanel.views.home', name='home'),
-    # url(r'^pypanel/', include('pypanel.foo.urls')),
+    url(r'^$', include('pypanel.base.urls')),
 
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
+    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
+
+    url(r'^bad/$', bad),
 )

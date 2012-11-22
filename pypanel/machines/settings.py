@@ -3,6 +3,8 @@ from django.utils.translation import ugettext_lazy as _
 
 ugettext = lambda s: s
 
+MACHINE_USER_DEFAULT = 'root'
+
 IPV4 = getattr(settings, 'IPV4', 'ipv4')
 IPV6 = getattr(settings, 'IPV6', 'ipv6')
 IP_TYPE_CHOICES = getattr(settings, 'IP_TYPE_CHOICES',

@@ -17,10 +17,12 @@ class SystemGroupInline(admin.TabularInline):
 
 class MachineAdmin(admin.ModelAdmin):
     fieldsets = (
-            (None, {'fields': (('hostname', 'active',),)}),
-            (_('Services'), {'fields': ('db_server', 'dns_server',
+            (None, {'fields': (('hostname', 'active',),
+                                'is_remote', 'primary_ip', 'username',
+                                'password')}),
+            (_('Services'), {'fields': (('db_server', 'dns_server',
                                         'ftp_server', 'mail_server',
-                                        'web_server',)}),
+                                        'web_server',),)}),
         )
     inlines = [SystemGroupInline, IPInline]
     list_display = ('hostname', 'db_server', 'dns_server', 'ftp_server',
@@ -30,12 +32,9 @@ class MachineAdmin(admin.ModelAdmin):
                    'web_server', 'active',)
     search_fields = ('hostname',)
 
-    class Media:
-        js = ['js/collapsed_stacked_inlines.js']
-
 
 def machine_link(self):
-    url = reverse('admin:machine_machine_change', args=[self.machine.pk])
+    url = reverse('admin:machines_machine_change', args=[self.machine.pk])
     return '<a href="%(url)s"><b>%(machine)s</b></a>' % \
             {'url': url, 'machine': self.machine}
 machine_link.short_description = _('Machine')
@@ -49,7 +48,29 @@ class IPAdmin(admin.ModelAdmin):
     search_fields = ('ip_address',)
 
 
+class SystemUserAdmin(admin.ModelAdmin):
+    fieldsets = (
+        (None, {
+            'fields': ('machine', 'user', 'username', 'password',)}),
+        (_('Additional Information'), {
+            'classes': ('collapse',),
+            'fields': ('uid', 'group', 'shell', 'homedir',)}),
+        )
+    list_filter = ('machine__hostname',)
+    list_display = ('username', machine_link,)
+    search_fields = ('username',)
+
+    class Media:
+        js = ['js/collapsed_stacked_inlines.js']
+
+
+    def get_readonly_fields(self, request, obj=None):
+        if obj:
+            return ['machine']
+        else: # This is an addition
+            return []
+
 admin.site.register(Machine, MachineAdmin)
 admin.site.register(IP, IPAdmin)
 admin.site.register(SystemGroup)
-admin.site.register(SystemUser)
+admin.site.register(SystemUser, SystemUserAdmin)
